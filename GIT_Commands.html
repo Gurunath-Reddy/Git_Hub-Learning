@@ -1,12 +1,32 @@
-<h1>27-06-2024</h1>
-<br>
-<h2><b>Git Commands</b></h2>
+<h2><b>Git Commands (27-06-2024)</b></h2>
 <ol>
-<li>Git config --gloabl user.name/email :- To configure our details to GIT</li>
-<li>Git init:-To initialize Git in the current directory</li>
-<li>Git add :-To start track on the selected item</li>
-<li>Git diff :-To Check differences after the changes</li>
-<li>Git log :-To check Git logs</li>
-<li>Git commit file_name -m "Commit message":-To commit the changes </li>
-</ol>
+    <li>git config --gloabl user.name/email :- To configure our details to GIT</li>
+    <li>git init :-To initialize Git in the current directory</li>
+    <li>git add :-To start track on the selected item</li>
+    <li>git diff :-To Check differences after the changes</li>
+    <li>git log :-To check Git logs</li>
+    <li>git commit file_name -m "Commit message":-To commit the changes </li>
+    <li>ssh-keygen -t rsa -b 4096 -C "your_email@example.com" :- To create SSH private and public key</li>
+    <li>git Remote add origin https://github.com/yourusername/your-repository.git :- To build connection btw local Git
+        and Remote Git-Hub</li>
+    <li>git push -u origin main :- To connect with origin upstream and main branch</li>
+</ol> <br>
 
+<hr>
+<h2><b>Git-Hub (01/07/2024)</b></h2>
+<h3>To Connect Git-Hub (Remote server - Host) with Git (local server - Tool) we need to follow this steps :-</h3>
+<ol>
+    <li>In Git-Hub we need to create a account.</li>
+    <li>Create a repository and copy that path. (https://github.com/yourusername/your-repository.git)</li>
+    <li>Now with using Git_bash we can connect our local(Git) with Remote(Git-Hub) with SSH Verification</li>
+    <li>Generate SSH private and Public key using this command - ssh-keygen -t rsa -b 4096 -C "your_email@example.com".
+    </li>
+    <li>Now provide this Public key to Git-Hub and build the connection</li>
+    <li>In VS code run this </li>
+    <ol type="i">
+        <li>git Remote add origin https://github.com/yourusername/your-repository.git</li>
+        <li>git push -u origin main</li>
+    </ol>
+    </li>
+</ol>
+<h4>Now all the data which are present Local repository are in sink with Remote Git-Hub </h4>
